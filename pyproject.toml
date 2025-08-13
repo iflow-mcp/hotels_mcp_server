@@ -8,3 +8,6 @@ dependencies = ["mcp[cli]>=1.2.0", "httpx", "python-dotenv"]
 
 [project.scripts]
 hotels-mcp-server = "hotels_mcp.hotels_server:main"
+
+[tool.uv]
+package = true
